@@ -13,8 +13,36 @@
 		CC1A244B2774F2B60092D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244A2774F2B60092D00A /* Assets.xcassets */; };
 		CC1A244E2774F2B60092D00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */; };
 		CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A2457277D30F90092D00A /* LoginViewController.swift */; };
+		CC2AF88627A2AA3D0045533E /* GroupsList + TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AF88527A2AA3D0045533E /* GroupsList + TableDataSource.swift */; };
+		CC2AF88827A2AB060045533E /* GroupsList + TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AF88727A2AB060045533E /* GroupsList + TableDelegate.swift */; };
+		CC2AF88A27A2AB730045533E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AF88927A2AB730045533E /* Constants.swift */; };
 		CC349D3D2783478300ABCD58 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */; };
 		CC349D3F278349C800ABCD58 /* NewsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */; };
+		CC349D412785EC8200ABCD58 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D402785EC8200ABCD58 /* GroupsViewController.swift */; };
+		CC349D432785ECCD00ABCD58 /* MyFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D422785ECCD00ABCD58 /* MyFriendsViewController.swift */; };
+		CC349D452785ED1D00ABCD58 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D442785ED1D00ABCD58 /* ProfileViewController.swift */; };
+		CC349D472785EDE900ABCD58 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D462785EDE900ABCD58 /* People.swift */; };
+		CC349D492785EF2B00ABCD58 /* AllGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC349D482785EF2B00ABCD58 /* AllGroupsViewController.swift */; };
+		CC64ED6A27A2A638001EB8A8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64ED6827A2A638001EB8A8 /* TableViewCell.swift */; };
+		CC64ED6B27A2A638001EB8A8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC64ED6927A2A638001EB8A8 /* TableViewCell.xib */; };
+		CC6A70BD27A932AC00B777B0 /* GroupsList + SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6A70BC27A932AC00B777B0 /* GroupsList + SearchBar.swift */; };
+		CC6E55AA27AD1BCF0013025B /* All Groups + SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55A927AD1BCF0013025B /* All Groups + SearchBar.swift */; };
+		CC6E55AC27AD26DC0013025B /* MyFriends + SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55AB27AD26DC0013025B /* MyFriends + SearchBar.swift */; };
+		CC6E55AE27AD28AA0013025B /* People + SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55AD27AD28AA0013025B /* People + SearchBar.swift */; };
+		CC6E55B127AD56A60013025B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55B027AD56A60013025B /* Group.swift */; };
+		CC6E55B327AD56B40013025B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55B227AD56B40013025B /* Friend.swift */; };
+		CC6E55B627B3AC280013025B /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55B527B3AC280013025B /* GalleryViewController.swift */; };
+		CC6E55BA27B3AD350013025B /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55B827B3AD350013025B /* GalleryViewCell.swift */; };
+		CC6E55BB27B3AD350013025B /* GalleryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6E55B927B3AD350013025B /* GalleryViewCell.xib */; };
+		CC6E55BE27BBC1170013025B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E55BD27BBC1170013025B /* Session.swift */; };
+		CCFFED3027A2DB6500AE8FEC /* All Groups + TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED2F27A2DB6500AE8FEC /* All Groups + TableDataSource.swift */; };
+		CCFFED3227A2DBA000AE8FEC /* All Groups + TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED3127A2DBA000AE8FEC /* All Groups + TableDelegate.swift */; };
+		CCFFED3B27A2FB0500AE8FEC /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED3927A2FB0500AE8FEC /* ChatTableViewCell.swift */; };
+		CCFFED3C27A2FB0500AE8FEC /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFFED3A27A2FB0500AE8FEC /* ChatTableViewCell.xib */; };
+		CCFFED3E27A3007B00AE8FEC /* MyFriends + TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED3D27A3007B00AE8FEC /* MyFriends + TableDataSource.swift */; };
+		CCFFED4027A30B6A00AE8FEC /* MyFriends + TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED3F27A30B6A00AE8FEC /* MyFriends + TableDelegate.swift */; };
+		CCFFED4227A30E0600AE8FEC /* People + TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED4127A30E0600AE8FEC /* People + TableDataSource.swift */; };
+		CCFFED4427A30EB800AE8FEC /* People + TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFFED4327A30EB800AE8FEC /* People + TableDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +54,36 @@
 		CC1A244D2774F2B60092D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1A244F2774F2B60092D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC1A2457277D30F90092D00A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC2AF88527A2AA3D0045533E /* GroupsList + TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsList + TableDataSource.swift"; sourceTree = "<group>"; };
+		CC2AF88727A2AB060045533E /* GroupsList + TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsList + TableDelegate.swift"; sourceTree = "<group>"; };
+		CC2AF88927A2AB730045533E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageViewController.swift; sourceTree = "<group>"; };
+		CC349D402785EC8200ABCD58 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		CC349D422785ECCD00ABCD58 /* MyFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsViewController.swift; sourceTree = "<group>"; };
+		CC349D442785ED1D00ABCD58 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC349D462785EDE900ABCD58 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		CC349D482785EF2B00ABCD58 /* AllGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsViewController.swift; sourceTree = "<group>"; };
+		CC64ED6827A2A638001EB8A8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CC64ED6927A2A638001EB8A8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CC6A70BC27A932AC00B777B0 /* GroupsList + SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsList + SearchBar.swift"; sourceTree = "<group>"; };
+		CC6E55A927AD1BCF0013025B /* All Groups + SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All Groups + SearchBar.swift"; sourceTree = "<group>"; };
+		CC6E55AB27AD26DC0013025B /* MyFriends + SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyFriends + SearchBar.swift"; sourceTree = "<group>"; };
+		CC6E55AD27AD28AA0013025B /* People + SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People + SearchBar.swift"; sourceTree = "<group>"; };
+		CC6E55B027AD56A60013025B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		CC6E55B227AD56B40013025B /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		CC6E55B527B3AC280013025B /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		CC6E55B827B3AD350013025B /* GalleryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
+		CC6E55B927B3AD350013025B /* GalleryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewCell.xib; sourceTree = "<group>"; };
+		CC6E55BD27BBC1170013025B /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		CCFFED2F27A2DB6500AE8FEC /* All Groups + TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All Groups + TableDataSource.swift"; sourceTree = "<group>"; };
+		CCFFED3127A2DBA000AE8FEC /* All Groups + TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All Groups + TableDelegate.swift"; sourceTree = "<group>"; };
+		CCFFED3927A2FB0500AE8FEC /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		CCFFED3A27A2FB0500AE8FEC /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		CCFFED3D27A3007B00AE8FEC /* MyFriends + TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyFriends + TableDataSource.swift"; sourceTree = "<group>"; };
+		CCFFED3F27A30B6A00AE8FEC /* MyFriends + TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyFriends + TableDelegate.swift"; sourceTree = "<group>"; };
+		CCFFED4127A30E0600AE8FEC /* People + TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People + TableDataSource.swift"; sourceTree = "<group>"; };
+		CCFFED4327A30EB800AE8FEC /* People + TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People + TableDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +118,179 @@
 			children = (
 				CC1A24412774F2B50092D00A /* AppDelegate.swift */,
 				CC1A24432774F2B50092D00A /* SceneDelegate.swift */,
-				CC1A2457277D30F90092D00A /* LoginViewController.swift */,
-				CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */,
-				CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */,
+				CC2AF88927A2AB730045533E /* Constants.swift */,
+				CCC5B5A827C39406005BA68F /* Network Service */,
+				CC6E55AF27AD568F0013025B /* Models */,
+				CCA8B93927A1D2EB00914CFF /* Controllers */,
 				CC1A24472774F2B50092D00A /* Main.storyboard */,
 				CC1A244A2774F2B60092D00A /* Assets.xcassets */,
 				CC1A244C2774F2B60092D00A /* LaunchScreen.storyboard */,
 				CC1A244F2774F2B60092D00A /* Info.plist */,
 			);
 			path = "Social Network App";
+			sourceTree = "<group>";
+		};
+		CC2AF88B27A2AC250045533E /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				CCFFED3327A2DC3000AE8FEC /* All Groups */,
+				CCA8B93A27A1D33900914CFF /* Personal Groups  */,
+				CC6B7CA027A29D2B004211C0 /* Cell */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		CC6B7C9C27A1D66D004211C0 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CC1A2457277D30F90092D00A /* LoginViewController.swift */,
+				CC349D3C2783478300ABCD58 /* ResetPasswordViewController.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		CC6B7C9D27A1D6FA004211C0 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				CCFFED3527A2FA8F00AE8FEC /* All Chats */,
+				CCFFED3427A2FA7F00AE8FEC /* New Chats */,
+				CC6E55B427B3ABCC0013025B /* Gallery */,
+				CCFFED3627A2FAA200AE8FEC /* Cell for Chats */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		CC6B7C9E27A1D715004211C0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D3E278349C800ABCD58 /* NewsPageViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CC6B7C9F27A1D72A004211C0 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D442785ED1D00ABCD58 /* ProfileViewController.swift */,
+			);
+			path = "User Profile";
+			sourceTree = "<group>";
+		};
+		CC6B7CA027A29D2B004211C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC64ED6827A2A638001EB8A8 /* TableViewCell.swift */,
+				CC64ED6927A2A638001EB8A8 /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC6E55AF27AD568F0013025B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E55B027AD56A60013025B /* Group.swift */,
+				CC6E55B227AD56B40013025B /* Friend.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC6E55B427B3ABCC0013025B /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E55B527B3AC280013025B /* GalleryViewController.swift */,
+				CC6E55B727B3AD070013025B /* Cell for Gallery */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		CC6E55B727B3AD070013025B /* Cell for Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E55B827B3AD350013025B /* GalleryViewCell.swift */,
+				CC6E55B927B3AD350013025B /* GalleryViewCell.xib */,
+			);
+			path = "Cell for Gallery";
+			sourceTree = "<group>";
+		};
+		CC6E55BC27BBC1030013025B /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E55BD27BBC1170013025B /* Session.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		CCA8B93927A1D2EB00914CFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B7C9C27A1D66D004211C0 /* Login Screen */,
+				CC2AF88B27A2AC250045533E /* Groups */,
+				CC6B7C9D27A1D6FA004211C0 /* Chats */,
+				CC6B7C9E27A1D715004211C0 /* News */,
+				CC6B7C9F27A1D72A004211C0 /* User Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCA8B93A27A1D33900914CFF /* Personal Groups  */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D402785EC8200ABCD58 /* GroupsViewController.swift */,
+				CC2AF88527A2AA3D0045533E /* GroupsList + TableDataSource.swift */,
+				CC2AF88727A2AB060045533E /* GroupsList + TableDelegate.swift */,
+				CC6A70BC27A932AC00B777B0 /* GroupsList + SearchBar.swift */,
+			);
+			path = "Personal Groups ";
+			sourceTree = "<group>";
+		};
+		CCC5B5A827C39406005BA68F /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E55BC27BBC1030013025B /* Singleton */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		CCFFED3327A2DC3000AE8FEC /* All Groups */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D482785EF2B00ABCD58 /* AllGroupsViewController.swift */,
+				CCFFED2F27A2DB6500AE8FEC /* All Groups + TableDataSource.swift */,
+				CCFFED3127A2DBA000AE8FEC /* All Groups + TableDelegate.swift */,
+				CC6E55A927AD1BCF0013025B /* All Groups + SearchBar.swift */,
+			);
+			path = "All Groups";
+			sourceTree = "<group>";
+		};
+		CCFFED3427A2FA7F00AE8FEC /* New Chats */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D462785EDE900ABCD58 /* People.swift */,
+				CCFFED4127A30E0600AE8FEC /* People + TableDataSource.swift */,
+				CCFFED4327A30EB800AE8FEC /* People + TableDelegate.swift */,
+				CC6E55AD27AD28AA0013025B /* People + SearchBar.swift */,
+			);
+			path = "New Chats";
+			sourceTree = "<group>";
+		};
+		CCFFED3527A2FA8F00AE8FEC /* All Chats */ = {
+			isa = PBXGroup;
+			children = (
+				CC349D422785ECCD00ABCD58 /* MyFriendsViewController.swift */,
+				CCFFED3D27A3007B00AE8FEC /* MyFriends + TableDataSource.swift */,
+				CCFFED3F27A30B6A00AE8FEC /* MyFriends + TableDelegate.swift */,
+				CC6E55AB27AD26DC0013025B /* MyFriends + SearchBar.swift */,
+			);
+			path = "All Chats";
+			sourceTree = "<group>";
+		};
+		CCFFED3627A2FAA200AE8FEC /* Cell for Chats */ = {
+			isa = PBXGroup;
+			children = (
+				CCFFED3927A2FB0500AE8FEC /* ChatTableViewCell.swift */,
+				CCFFED3A27A2FB0500AE8FEC /* ChatTableViewCell.xib */,
+			);
+			path = "Cell for Chats";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1A244E2774F2B60092D00A /* LaunchScreen.storyboard in Resources */,
+				CC6E55BB27B3AD350013025B /* GalleryViewCell.xib in Resources */,
+				CC64ED6B27A2A638001EB8A8 /* TableViewCell.xib in Resources */,
+				CCFFED3C27A2FB0500AE8FEC /* ChatTableViewCell.xib in Resources */,
 				CC1A244B2774F2B60092D00A /* Assets.xcassets in Resources */,
 				CC1A24492774F2B50092D00A /* Main.storyboard in Resources */,
 			);
@@ -145,9 +368,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC349D3F278349C800ABCD58 /* NewsPageViewController.swift in Sources */,
+				CC6E55B627B3AC280013025B /* GalleryViewController.swift in Sources */,
+				CC349D472785EDE900ABCD58 /* People.swift in Sources */,
+				CCFFED4227A30E0600AE8FEC /* People + TableDataSource.swift in Sources */,
 				CC1A2458277D30F90092D00A /* LoginViewController.swift in Sources */,
+				CC2AF88627A2AA3D0045533E /* GroupsList + TableDataSource.swift in Sources */,
+				CCFFED3227A2DBA000AE8FEC /* All Groups + TableDelegate.swift in Sources */,
 				CC1A24422774F2B50092D00A /* AppDelegate.swift in Sources */,
+				CCFFED3027A2DB6500AE8FEC /* All Groups + TableDataSource.swift in Sources */,
+				CC6E55AA27AD1BCF0013025B /* All Groups + SearchBar.swift in Sources */,
+				CC6E55BA27B3AD350013025B /* GalleryViewCell.swift in Sources */,
 				CC1A24442774F2B50092D00A /* SceneDelegate.swift in Sources */,
+				CCFFED4427A30EB800AE8FEC /* People + TableDelegate.swift in Sources */,
+				CC6E55BE27BBC1170013025B /* Session.swift in Sources */,
+				CC6E55AC27AD26DC0013025B /* MyFriends + SearchBar.swift in Sources */,
+				CC349D432785ECCD00ABCD58 /* MyFriendsViewController.swift in Sources */,
+				CC6A70BD27A932AC00B777B0 /* GroupsList + SearchBar.swift in Sources */,
+				CCFFED3E27A3007B00AE8FEC /* MyFriends + TableDataSource.swift in Sources */,
+				CC6E55B327AD56B40013025B /* Friend.swift in Sources */,
+				CC349D492785EF2B00ABCD58 /* AllGroupsViewController.swift in Sources */,
+				CC349D412785EC8200ABCD58 /* GroupsViewController.swift in Sources */,
+				CCFFED4027A30B6A00AE8FEC /* MyFriends + TableDelegate.swift in Sources */,
+				CC64ED6A27A2A638001EB8A8 /* TableViewCell.swift in Sources */,
+				CC6E55B127AD56A60013025B /* Group.swift in Sources */,
+				CCFFED3B27A2FB0500AE8FEC /* ChatTableViewCell.swift in Sources */,
+				CC349D452785ED1D00ABCD58 /* ProfileViewController.swift in Sources */,
+				CC6E55AE27AD28AA0013025B /* People + SearchBar.swift in Sources */,
+				CC2AF88A27A2AB730045533E /* Constants.swift in Sources */,
+				CC2AF88827A2AB060045533E /* GroupsList + TableDelegate.swift in Sources */,
 				CC349D3D2783478300ABCD58 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +548,7 @@
 				DEVELOPMENT_TEAM = 89R2TJK449;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Social Network App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VK FakeApp";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,6 +579,7 @@
 				DEVELOPMENT_TEAM = 89R2TJK449;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Social Network App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VK FakeApp";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
